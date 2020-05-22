@@ -1,4 +1,6 @@
 body{
+	height:100%
+	width:100%;
 	font-size: 16px;
 	/*position:absolute;*/
     /*left:0;*/
@@ -8,9 +10,11 @@ body{
 	/*background-repeat: no-repeat;*/
 	/*background-size: cover;*/
 	/*opacity: 0.2;*/
-
+	background-image: url("flight.jpg");
+	background-size: cover;
+	background-repeat: none;
 }
-body::before{
+/*body::before{
 	content:"";
     position: absolute;
     top:0;
@@ -20,10 +24,11 @@ body::before{
   	background-image: url("flight.jpg");
   	background-repeat: none;
   	background-size: cover;
-/*   background-color: gray; */
+/*   background-color: gray; 
   	opacity:.7;
   	z-index:-1
-}
+}*/
+
 .header1{
 	padding: 120px;
 	font-family: 'Raleway', sans-serif;
@@ -31,20 +36,30 @@ body::before{
 	color: white;
   	font-size: 75px;
 }
-.enter2{
-	float: center;
+.enter{
+	
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	font-size: 30px;
 	color: pink;
+	margin: 0 auto;
 	/*background-color: lightgrey*/
 }
 input[type=text]{
-	float: center;
+
 	text-align: center;
 	background-color: transparent;
 	color:white;
+	border-radius: 12px;
 	/*border: 2px solid lightgrey;*/
 	/*padding: 3px;*/
 
+}
+.getcenter{
+	margin: 0 auto;
+}
+.button{
+	background-color: lightblue;
+	color: orange;
+	border-radius: 12px;
 }
